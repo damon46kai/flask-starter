@@ -83,6 +83,12 @@ setup `flask` command for our app
 $ export FLASK_APP=manage.py
 $ export FLASK_ENV=development
 ```
+if you are using Windows, try below
+
+```bash
+$ set FLASK_APP=manage.py
+$ set FLASK_ENV=development
+```
 
 create instance folder in `/tmp` directory (sqlite database, temp files stay here)
 
